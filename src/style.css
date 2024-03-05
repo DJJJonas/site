@@ -1,0 +1,140 @@
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
+@font-face {
+  font-family: "Hapna";
+  src: url("/assets/fonts/HapnaSlab.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Catalogue";
+  src: url("/assets/fonts/RDRCatalogue.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Gothica";
+  src: url("/assets/fonts/RDRGothica.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Lino";
+  src: url("/assets/fonts/RDRLino.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Redemption";
+  src: url("/assets/fonts/Redemption.otf") format("opentype");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lino", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f5f5;
+  width: 100vw;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h1 {
+  color: #f5f5f5;
+  font-size: 4rem;
+  margin: 0;
+  font-family: "Redemption", sans-serif;
+  text-shadow: Black 4px 4px 2px, Black -4px -4px 2px, Black -4px 4px 2px,
+    Black 4px -4px 2px;
+}
+
+h2 {
+  color: #f5f5f5;
+  font-size: 4rem;
+  margin: 0;
+  font-family: "Hapna", sans-serif;
+}
+
+h3 {
+  color: #f5f5f5;
+  font-weight: normal;
+  font-size: 1.5rem;
+  font-family: "Hapna", sans-serif;
+  margin-top: 10px;
+  text-shadow: Black 1px 1px 1px, Black -1px -1px 1px, Black -1px 1px 1px,
+    Black 1px -1px 1px;
+}
+
+h4 {
+  color: #f5f5f5;
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-family: "Hapna", sans-serif;
+}
+
+p {
+  color: #f5f5f5;
+  font-family: "Hapna", sans-serif;
+  font-size: 1.1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #7c7c7c;
+}
+
+a:hover {
+  color: #bb070e;
+}
+
+.bgblack {
+  background-color: #000;
+}
+
+.bgblack2 {
+  background-color: #050505;
+}
+
+.black {
+  color: #0a0404;
+}
+
+.bgred {
+  background-color: #bb070e;
+}
+
+.red {
+  color: #bb070e;
+}
+
+.bgyellow {
+  background-color: #faa609;
+}
+
+.yellow {
+  color: #faa609;
+}
+
+.bggrey {
+  background-color: #7c7c7c;
+}
+
+.grey {
+  color: #7c7c7c;
+}
+
+.bgwhite {
+  background-color: #f5f5f5;
+}
+
+.white {
+  color: #f5f5f5;
+}
+
+.round {
+  border-radius: 100%;
+}
