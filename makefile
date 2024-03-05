@@ -1,11 +1,12 @@
-build: build-web build-frontend
+build: build-frontend build-web
 
 build-web:
 	go build cmd/web/*
 
 build-frontend:
-	cd frontend && npm run build
-	cd ..
+	cd frontend
+	npm install
+	npm run build
 
 run:
 	./main
