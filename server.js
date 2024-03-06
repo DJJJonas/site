@@ -1,9 +1,19 @@
 import express from "express";
 
+function getPort() {
+  let port = process.env.PORT;
+  if (!port) {
+    return 5173;
+  }
+  port = Number.parseInt(port);
+  return port;
+}
+
+const PORT = getPort();
 const app = express();
 
 app.use("/", express.static("dist"));
 
-app.listen(5173, () => {
-  console.log("http://localhost:5173.");
+app.listen(PORT, () => {
+  console.log("Server started and listening on port " + PORT);
 });
