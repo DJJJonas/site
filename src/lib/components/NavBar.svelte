@@ -7,7 +7,7 @@
 </script>
 
 <div class="container">
-  <img src="https://avatars.githubusercontent.com/u/48167880" alt="logo" />
+  <!-- <img src="https://avatars.githubusercontent.com/u/48167880" alt="logo" /> -->
 
   <div class="links">
     {#each items as item}
@@ -43,6 +43,7 @@
     }
 
     @media screen and (max-width: 768px) {
+      justify-content: flex-end;
       img {
         margin-left: calc(50% - 30px);
       }
