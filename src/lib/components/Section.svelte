@@ -1,5 +1,5 @@
 <script lang="ts">
-    export let id = "";
+  export let id = "";
   export let bg = "red";
   export let bgimg = "";
 </script>
@@ -9,8 +9,6 @@
   class="bg{bg}"
   style={bgimg ? "background-image: url(" + bgimg + ");" : ""}
 >
-  <slot name="image" />
-
   <slot />
 </section>
 

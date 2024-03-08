@@ -55,7 +55,6 @@
 <div id="content" bind:this={contentDiv}>
   <Section bgimg="/assets/img/bg.jpg">
     <img
-      slot="image"
       class="round"
       width="240px"
       src="https://avatars.githubusercontent.com/u/48167880"
